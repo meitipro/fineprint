@@ -8,6 +8,7 @@ One contract (`contracts/fineprint.py`, ten methods), a Next.js site with a `/do
 
 | | |
 |---|---|
+| Live site | https://fineprint-genlayer.vercel.app |
 | Network | GenLayer Studio Next, chain 61997 |
 | Contract | [`0xe6Aa698d3b3c5F6ED7722f15649B0ca85EA7d092`](https://explorer-studio-dev.genlayer.com/address/0xe6Aa698d3b3c5F6ED7722f15649B0ca85EA7d092) |
 | Deploy transaction | [`0x8b3f662a…`](https://explorer-studio-dev.genlayer.com/tx/0x8b3f662aff9982077b6795e1ea3c440244a16cbbd811f0c0659d6d00bd5350e5) |
@@ -44,6 +45,7 @@ The ten golden cases of the spec went through the deployed contract, one challen
 
 - **8 of 10 matched.** The two misses are published, not tuned away: cases 1 ("You need 100 KILN at the Oct 1 snapshot" against "Hold at least 100 KILN…") and 4 ("A quarter at claim, the rest over a year") were expected FAITHFUL, and the validators agreed on MISSTATES both times. The model is stricter about a dropped "at least" and a dropped "cannot be transferred" than the spec expected.
 - **Held out, run once, never used to tune:** H1 "Most users can claim" → UNSUPPORTED; H2 "Tokens vest over about a year" → FAITHFUL; H3 "You will keep your tokens for good" (clause 4, against clause 6) → MISSTATES.
+- **Live reviewer path:** from two fresh accounts, through the site's own signing code and faucet: register (the browser-computed id equals the contract's), post, challenge, judge (MISSTATES → UPHELD), a second challenge retracted (CORRECTED), the books add up, and a withdraw of 5 GEN moved the wallet by 4.999873… GEN after finality, the difference being that transaction's own fee ([`docs/reviewer-path.studio-next.json`](docs/reviewer-path.studio-next.json)).
 - **Seed on chain:** claim 3 of the Kiln terms ("Tokens are fully unlocked at claim.") was challenged and came back MISSTATES → UPHELD; claim 2 came back FAITHFUL → REJECTED; Pellmark's claim 5 was challenged and retracted → CORRECTED; a challenger withdrew 9 GEN and the wallet gained it at finality ([`docs/seed.studio-next.md`](docs/seed.studio-next.md)).
 
 ## Honest departures

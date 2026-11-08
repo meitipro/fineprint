@@ -11,7 +11,7 @@ The build brief of the spec, ticked from the repository's own state, so a fresh 
 - [x] `web/`: every page of section 6 with genlayer-js 2.0.0-rc.1
 - [x] `/docs`: every page of section 7, generated reference, plus `/llms.txt`
 - [x] `scripts/seed.py`, README, `submission/`
-- [ ] Repository on GitHub: blocked by the permission guard, see `HANDOFF.md`
-- [ ] Site on Vercel
-- [ ] Reviewer path on the live site from fresh accounts (`web/scripts/reviewer-path.mjs`)
+- [x] Repository public with no secrets: https://github.com/meitipro/fineprint
+- [x] Site on Vercel: https://fineprint-genlayer.vercel.app (Skew Protection off)
+- [x] Reviewer path on the live site from fresh accounts (`web/scripts/reviewer-path.mjs`, `docs/reviewer-path.studio-next.json`)
 - [ ] Portal entry sent, X post, demo recorded: only the user can do these (`HANDOFF.md`)

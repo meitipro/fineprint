@@ -1,0 +1,83 @@
+{
+  "site": "https://fineprint-genlayer.vercel.app",
+  "contract": "0xe6Aa698d3b3c5F6ED7722f15649B0ca85EA7d092",
+  "started": "2026-11-08T18:10:41.422Z",
+  "steps": [
+    {
+      "step": "faucet",
+      "account": "reviewer_author_202611081810",
+      "address": "0x734dd117b39d25cbf02865d3323F3D96Ec326da3",
+      "from": "0",
+      "to": "20000000000000000000",
+      "note": "a lowercase address, checksummed by the route"
+    },
+    {
+      "step": "faucet",
+      "account": "reviewer_challenger_202611081810",
+      "address": "0xE3305b119627F05dC5fA79738036BA92fe32d56E",
+      "from": "0",
+      "to": "20000000000000000000",
+      "note": "a lowercase address, checksummed by the route"
+    },
+    {
+      "step": "register_doc",
+      "id": "b89da09312b81201a6916b15e6c1955c5ecfb215362b15d151303511247b4a80",
+      "hash": "0xaf053b7bedc8ce806f5e54b9c12c57946a5c19b8364009e26f31a928dd04a0ba",
+      "note": "the id computed by the site code is the id the contract returned"
+    },
+    {
+      "step": "post_summary",
+      "summaryId": 6,
+      "hash": "0xd920357e724b4f38ddfd490977a6475669dd3ef8c41ae4a095a9e4558c20abe8",
+      "bond": "10000000000000000000",
+      "stake": "1000000000000000000"
+    },
+    {
+      "step": "challenge",
+      "challengeId": 17,
+      "hash": "0xb0f51df82ab677dcf584f3ae42d1fca6bb0695cd5a75ce23987284550e2d0d7f"
+    },
+    {
+      "step": "judge",
+      "challengeId": 17,
+      "hash": "0x6fef8da8d9b86f64b6a743e06b132c51c6c3c4bb851e43b0a10f2cc74ec540cc",
+      "label": "MISSTATES",
+      "verdict": "UPHELD",
+      "to_challenger": "3000000000000000000"
+    },
+    {
+      "step": "retract",
+      "challengeId": 18,
+      "hash": "0xca2e246c4ee334aad8cd4d8fe5c079799f7d2864150100308c5fe11bacc92d8b",
+      "verdict": "CORRECTED",
+      "to_challenger": "2000000000000000000"
+    },
+    {
+      "step": "books",
+      "received": "128500000000000000000",
+      "bonds_left": "50500000000000000000",
+      "stakes_held": "0",
+      "owed": "69000000000000000000",
+      "paid": "9000000000000000000",
+      "note": "received = bonds_left + stakes_held + owed + paid"
+    },
+    {
+      "step": "withdraw",
+      "hash": "0x6ba004d8185a532291b5b868e074aa4fc2d2bf4e742b93e6de97ac89cc76fe01",
+      "owed": "5000000000000000000",
+      "wallet_before": "17999764014749991531",
+      "wallet_after_finality": "22999637708499988708",
+      "gained": "4999873693749997177",
+      "fee_and_gas_difference": "126306250002823",
+      "final_status": "FINALIZED",
+      "note": "the wallet gains what was owed, less the fee of the withdraw transaction"
+    },
+    {
+      "step": "pages",
+      "checked": 14,
+      "all": 200,
+      "challenge_page_shows": "MISSTATES → UPHELD"
+    }
+  ],
+  "finished": "2026-11-08T18:13:22.288Z"
+}
