@@ -1,0 +1,389 @@
+{
+  "document": {
+    "id": "367f3b5d0fb0e42559c33c45adbbba55aecec4da0ab8edbe983f9ac709027e03",
+    "tx": "0x4e2139cf83ee5ff2e8b5deb6daf97008cd57012eaeb4d8b6a18d838b09f01c50"
+  },
+  "summaries": {
+    "A": {
+      "id": 1,
+      "tx": "0x5b629c869700c834a51ba4a68d83d2dda4b96f28d27eb2a5dcd7bff9bc57ac71",
+      "cases": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "B": {
+      "id": 2,
+      "tx": "0xca758cabdf1ea28fe35da63398a560242b95a51295353bfb6d517f45f0e2e8b0",
+      "cases": [
+        "9",
+        "10",
+        "H1",
+        "H2",
+        "H3"
+      ]
+    }
+  },
+  "cases": {
+    "1": {
+      "summary_id": 1,
+      "claim_no": 1,
+      "challenger": "0x3F510c0B8DAAef3ACE6f5279826470CD99d9E36e",
+      "challenge_tx": "0xa3c897c938707ce972a9ec975f4973c31b25fb32d227f34b346dd74f6435d589",
+      "challenge_id": 1
+    },
+    "2": {
+      "summary_id": 1,
+      "claim_no": 2,
+      "challenger": "0x9d7EC2bF20d1D9D5A1dacDBdD16ccca84e8eF761",
+      "challenge_tx": "0xc4e7716af4cde75d13c66072631bd59680c8fd42e56df325829a5fd173925579",
+      "challenge_id": 2
+    },
+    "3": {
+      "summary_id": 1,
+      "claim_no": 3,
+      "challenger": "0x72c388eC61EbE529b0f82FFE06064C5a4d789F16",
+      "challenge_tx": "0x03d925d1313c923bfeedb53fa4732ce1465869a99a2938eff0738fa4854783f2",
+      "challenge_id": 3
+    },
+    "4": {
+      "summary_id": 1,
+      "claim_no": 4,
+      "challenger": "0x3F510c0B8DAAef3ACE6f5279826470CD99d9E36e",
+      "challenge_tx": "0x6f2ec0290194a101159b80a2f8955b91fb0d6871ed543079514419f9f1938c48",
+      "challenge_id": 4
+    },
+    "5": {
+      "summary_id": 1,
+      "claim_no": 5,
+      "challenger": "0x9d7EC2bF20d1D9D5A1dacDBdD16ccca84e8eF761",
+      "challenge_tx": "0x14601f7b2ab83c2b59e5d4f953b832888b5c73f2ae0d84178e5b2c719d141048",
+      "challenge_id": 5
+    },
+    "6": {
+      "summary_id": 1,
+      "claim_no": 6,
+      "challenger": "0x72c388eC61EbE529b0f82FFE06064C5a4d789F16",
+      "challenge_tx": "0x68b27a1e1b9bd1c35e6c5e172234f55d0961659a67ff842b84903aad7e796a51",
+      "challenge_id": 6
+    },
+    "7": {
+      "summary_id": 1,
+      "claim_no": 7,
+      "challenger": "0x3F510c0B8DAAef3ACE6f5279826470CD99d9E36e",
+      "challenge_tx": "0xd03ff5c4cfd7670a78b7763a9b4e509647cd68811fe296dc55c5838f0c8a0120",
+      "challenge_id": 7
+    },
+    "8": {
+      "summary_id": 1,
+      "claim_no": 8,
+      "challenger": "0x9d7EC2bF20d1D9D5A1dacDBdD16ccca84e8eF761",
+      "challenge_tx": "0x49c1eae867b9c01033288ead9e5519041428d9878a55c40b80222594f842d2c4",
+      "challenge_id": 8
+    },
+    "9": {
+      "summary_id": 2,
+      "claim_no": 1,
+      "challenger": "0x72c388eC61EbE529b0f82FFE06064C5a4d789F16",
+      "challenge_tx": "0x328222101eef8e2f5eec5daa71788e8bcffd883cdd987d36b7655fc30081d2f7",
+      "challenge_id": 9
+    },
+    "10": {
+      "summary_id": 2,
+      "claim_no": 2,
+      "challenger": "0x3F510c0B8DAAef3ACE6f5279826470CD99d9E36e",
+      "challenge_tx": "0xd84e5863e0fbd9c2d61f69cab56135312015dd9ad5252da5b275e8d05ceb7cd6",
+      "challenge_id": 10
+    },
+    "H1": {
+      "summary_id": 2,
+      "claim_no": 3,
+      "challenger": "0x9d7EC2bF20d1D9D5A1dacDBdD16ccca84e8eF761",
+      "challenge_tx": "0x7eef66189de64002e311b4186e0b833399cf7a9c3dbaefe31d99506e68419656",
+      "challenge_id": 11
+    },
+    "H2": {
+      "summary_id": 2,
+      "claim_no": 4,
+      "challenger": "0x72c388eC61EbE529b0f82FFE06064C5a4d789F16",
+      "challenge_tx": "0x93a12fae91a1ff56fedc15450f321951fdaaf400e5793c4162b32cd5b4e56944",
+      "challenge_id": 12
+    },
+    "H3": {
+      "summary_id": 2,
+      "claim_no": 5,
+      "challenger": "0x3F510c0B8DAAef3ACE6f5279826470CD99d9E36e",
+      "challenge_tx": "0xc3d2efaec8d7d59a35cb8ed317a69b602104b7fcb7eaf581fb393d4ca0482a2f",
+      "challenge_id": 13
+    }
+  },
+  "attempts": [
+    {
+      "case": "1",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "FAITHFUL",
+      "challenge_id": 1,
+      "tx": "0x943e35d6f86680852dd3b497f0ce41feba0b4c0b1a15800c96b671932a6458aa",
+      "sent_at": "2026-11-08T17:36:08Z",
+      "consensus": "decided",
+      "label": "MISSTATES",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794159357,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "2",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "MISSTATES",
+      "challenge_id": 2,
+      "tx": "0xcc15675dfa98b1b9d475dcb4343273daf322114a0ac9c2eb80d2ef58f80f8da8",
+      "sent_at": "2026-11-08T17:36:33Z",
+      "consensus": "decided",
+      "label": "MISSTATES",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794159383,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "3",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "MISSTATES",
+      "challenge_id": 3,
+      "tx": "0x58f55c261efbe66fb1b937e1e60c94219e43e2191cdd51908ac73112eb0f733b",
+      "sent_at": "2026-11-08T17:37:03Z",
+      "consensus": "decided",
+      "label": "MISSTATES",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794159413,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "4",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "FAITHFUL",
+      "challenge_id": 4,
+      "tx": "0x5675c5b046f34822264121bcb2343b2f7ff6c998d9a1421f36d884cdc5b19c54",
+      "sent_at": "2026-11-08T17:37:39Z",
+      "consensus": "decided",
+      "label": "MISSTATES",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794159443,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "5",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "MISSTATES",
+      "challenge_id": 5,
+      "tx": "0x8866922338e3d2ab9b143ae07d65429d86a613aa7e779aa73573dd4fc7ea0c4d",
+      "sent_at": "2026-11-08T17:38:04Z",
+      "consensus": "decided",
+      "label": "MISSTATES",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794159474,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "6",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "FAITHFUL",
+      "challenge_id": 6,
+      "tx": "0x42d9cb5bb1e9e87216719bc9078700ad68ad12487c69b2bed6e22e261bfc7f38",
+      "sent_at": "2026-11-08T17:39:44Z",
+      "consensus": "decided",
+      "label": "FAITHFUL",
+      "verdict": "REJECTED",
+      "to_challenger": "0",
+      "to_author": "2000000000000000000",
+      "resolved_at": 1794159502,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "7",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "UNSUPPORTED",
+      "challenge_id": 7,
+      "tx": "0x234ffb8ed50359ecfe6ff178786f0da5ef349c2aaf3c1ec1fa398f3e67507677",
+      "sent_at": "2026-11-08T17:40:08Z",
+      "consensus": "decided",
+      "label": "UNSUPPORTED",
+      "verdict": "UPHELD",
+      "to_challenger": "2000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794159598,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "8",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "FAITHFUL",
+      "challenge_id": 8,
+      "tx": "0xe6cccb3450b39b5df429628fc284f2fa52373b3ee63d778a3353fae806887faa",
+      "sent_at": "2026-11-08T17:41:33Z",
+      "consensus": "decided",
+      "label": "FAITHFUL",
+      "verdict": "REJECTED",
+      "to_challenger": "0",
+      "to_author": "2000000000000000000",
+      "resolved_at": 1794159624,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "9",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "UNSUPPORTED",
+      "challenge_id": 9,
+      "tx": "0x3c0d32e98c6cc85159873a5dd9e686ba8d4c837e3f797a051f07ebb7182079a9",
+      "sent_at": "2026-11-08T17:42:17Z",
+      "consensus": "decided",
+      "label": "UNSUPPORTED",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794159709,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "10",
+      "attempt": 1,
+      "held_out": false,
+      "expected": "MISSTATES",
+      "challenge_id": 10,
+      "tx": "0x0e2e30688a3e64c352f26fce9126b186625858ec2bb5ae53ef6961b58b9874bb",
+      "sent_at": "2026-11-08T17:42:44Z",
+      "consensus": "decided",
+      "label": "MISSTATES",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794159753,
+      "validators": {
+        "voted": 5,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "H1",
+      "attempt": 1,
+      "held_out": true,
+      "expected": "EITHER",
+      "challenge_id": 11,
+      "tx": "0x7d2f57c32e1daa613df99484e4988799047c8ad940dca140a8158bd200b4929b",
+      "sent_at": "2026-11-08T17:47:41Z",
+      "consensus": "decided",
+      "label": "UNSUPPORTED",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794160046,
+      "validators": {
+        "voted": 3,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "H2",
+      "attempt": 1,
+      "held_out": true,
+      "expected": "EITHER",
+      "challenge_id": 12,
+      "tx": "0xac95d29e63225aec9fc9d1328c12c2f654537662c5708aff63b2cf8a58e6add0",
+      "sent_at": "2026-11-08T17:48:31Z",
+      "consensus": "decided",
+      "label": "FAITHFUL",
+      "verdict": "REJECTED",
+      "to_challenger": "0",
+      "to_author": "2000000000000000000",
+      "resolved_at": 1794160074,
+      "validators": {
+        "voted": 3,
+        "agreed": 3
+      }
+    },
+    {
+      "case": "H3",
+      "attempt": 1,
+      "held_out": true,
+      "expected": "EITHER",
+      "challenge_id": 13,
+      "tx": "0x1ef1a49c9831be3e5d7d07fa3cb707d58e0cc5fd0a792e3b53a855bc4aec8e21",
+      "sent_at": "2026-11-08T17:48:59Z",
+      "consensus": "decided",
+      "label": "MISSTATES",
+      "verdict": "UPHELD",
+      "to_challenger": "6000000000000000000",
+      "to_author": "0",
+      "resolved_at": 1794160125,
+      "validators": {
+        "voted": 3,
+        "agreed": 3
+      }
+    }
+  ],
+  "contract": "0xe6Aa698d3b3c5F6ED7722f15649B0ca85EA7d092",
+  "contract_sha256": "3e8786ac1adcfd27153712f179c2463dc30dbad102c35c58435b0edc176f64ef",
+  "golden_sha256": "c4956554ca24aea157a32b98668abad4a339f9ec1d1a512e6c97f0e89498d739",
+  "golden_locked_at": "2026-11-08T17:34:43Z",
+  "judge_sha256": "575835767e9e4512e043892ee9fa4c60059f6e78838cf77133f4b86cd624214c",
+  "network": "studio-next",
+  "explorer": "https://explorer-studio-dev.genlayer.com",
+  "author": "0xCADC3911c0A33e541B5A17f44802128d7A49Db0f",
+  "judge_account": "0x30d64f06aE10d69bf439b59aA7Dc2979d4959761",
+  "challengers": [
+    "0x3F510c0B8DAAef3ACE6f5279826470CD99d9E36e",
+    "0x9d7EC2bF20d1D9D5A1dacDBdD16ccca84e8eF761",
+    "0x72c388eC61EbE529b0f82FFE06064C5a4d789F16"
+  ]
+}

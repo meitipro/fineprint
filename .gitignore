@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv*/
+.pytest_cache/
+node_modules/
+.next/
+out/
+.env
+.env.*
+!.env.example
+web/tsconfig.tsbuildinfo
+web/next-env.d.ts
+web/.source/
+# Keys never live in this repository: scripts keep them in ~/.fineprint/.
+accounts.json
+# Local tool settings.
+.claude/
+# Vercel CLI link data.
+.vercel/
+
+# Local build logs.
+docs/pip.log
+docs/npm-ci.log
+docs/web-start.log
+docs/mutate.log
+docs/vercel-deploy.log

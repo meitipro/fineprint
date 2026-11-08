@@ -1,0 +1,16 @@
+{
+  "deployments": {
+    "studio-next": {
+      "chain_id": 61997,
+      "deployed_at": "2026-11-08T17:32:34Z",
+      "explorer": "https://explorer-studio-dev.genlayer.com",
+      "fineprint": "0xe6Aa698d3b3c5F6ED7722f15649B0ca85EA7d092",
+      "fineprint_deployer": "0x8C6a3FF2057e21F902713A8dc97d77Ed302362da",
+      "fineprint_file": "contracts/fineprint.py",
+      "fineprint_sha256": "3e8786ac1adcfd27153712f179c2463dc30dbad102c35c58435b0edc176f64ef",
+      "fineprint_tx": "0x8b3f662aff9982077b6795e1ea3c440244a16cbbd811f0c0659d6d00bd5350e5",
+      "rpc": "https://studio-next.genlayer.com/api",
+      "runtime": "py-genlayer:babwp9t37jw9g4j2bccgn14g6x7x9s1f7dsmh7emvz735pz4zxa0"
+    }
+  }
+}

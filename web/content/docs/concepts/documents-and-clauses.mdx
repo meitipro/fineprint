@@ -1,0 +1,26 @@
+---
+title: Documents and clauses
+description: What a document is, why its id is a hash, and why it can never be edited.
+---
+
+A **document** is a title of at most 80 characters and 3 to 12 numbered clauses of at most 500 characters each. Anyone can register one with `register_doc`. The contract stores the registrar, the title and the clauses.
+
+## The id is the hash of the text
+
+The id is the sha256 of the normalised title and clauses (see [Hashing](/docs/reference/hashing)). Three things follow:
+
+- A summary always points at text that cannot change under it.
+- The same text cannot be registered twice. A second attempt is refused with the id of the first.
+- A new version is a new document. A summary of the old one keeps pointing at the old text.
+
+## Pasted text is only as good as the person who pasted it
+
+Fineprint does not fetch the original terms. The clauses are pasted on chain, which keeps the check independent of any live page and means every validator sees identical input. The text is public, so anyone can compare it with the original, and a wrong paste is answered by registering a right one.
+
+<Callout type="warn" title="Check the paste">
+  Documents are public and cannot be edited. Compare the clauses with the original before you register them.
+</Callout>
+
+## Normalisation
+
+Line endings become `\n` and the whitespace Python's `str.strip()` removes is taken off both ends of the title and of each clause. The browser does the same before it computes the id, so the id you see before signing is the id the contract returns.

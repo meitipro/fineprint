@@ -1,0 +1,111 @@
+{
+  "steps": {
+    "register_quill": {
+      "method": "register_doc",
+      "tx": "0x73b2e0ffffcc4c6aa7f6e172eeac86b48a7aceb9b13665229b6dc1230acd320e",
+      "ok": true,
+      "returned": "2a819e56e439e9855210aa7ea88dad4a7c6feef06d883f11f78f94c14acf09d8",
+      "refusal": "",
+      "at": "2026-11-08T17:54:10Z"
+    },
+    "register_pellmark": {
+      "method": "register_doc",
+      "tx": "0x2a5b8c422b7529b136b431d47eaa6925d51d63cfba72bb957a57a48711f5d375",
+      "ok": true,
+      "returned": "ce82d67612642ab31e63b891fd9b0f46488f1b2c713517b6b67c6c918c12231d",
+      "refusal": "",
+      "at": "2026-11-08T17:54:18Z"
+    },
+    "post_kiln": {
+      "method": "post_summary",
+      "tx": "0xc65d5c257bdc03d8eb4b727f43af9b02ba70a0a9a3962cebe429bea9d9f570b3",
+      "ok": true,
+      "returned": 3,
+      "refusal": "",
+      "at": "2026-11-08T17:54:27Z"
+    },
+    "post_quill": {
+      "method": "post_summary",
+      "tx": "0x28a9a39806950a3c7ee6c844a85e5bba10c4843db80e617c430a7f53a106f36b",
+      "ok": true,
+      "returned": 4,
+      "refusal": "",
+      "at": "2026-11-08T17:54:35Z"
+    },
+    "post_pellmark": {
+      "method": "post_summary",
+      "tx": "0x6d06e6f8d8064266ecc6fb6d93e1c8c6bce5b0fac96749f159d388204410aa50",
+      "ok": true,
+      "returned": 5,
+      "refusal": "",
+      "at": "2026-11-08T17:54:44Z"
+    },
+    "challenge_kiln_3": {
+      "method": "challenge",
+      "tx": "0xa704ee0352e307d23c783a34c25c9653add5fa9d56dd11487f956503b2a61f6c",
+      "ok": true,
+      "returned": 14,
+      "refusal": "",
+      "at": "2026-11-08T17:54:59Z"
+    },
+    "judge_kiln_3": {
+      "method": "judge",
+      "tx": "0xacb408a4b79e27fb0f478ad794983013476028afc3689216e8e0ca31cadae1fc",
+      "ok": true,
+      "returned": "UPHELD",
+      "refusal": "",
+      "at": "2026-11-08T17:55:13Z"
+    },
+    "challenge_kiln_2": {
+      "method": "challenge",
+      "tx": "0x5b4975227680c63bf5c1749d318126223778785005301a0a36a1595748aa0857",
+      "ok": true,
+      "returned": 15,
+      "refusal": "",
+      "at": "2026-11-08T17:55:27Z"
+    },
+    "judge_kiln_2": {
+      "method": "judge",
+      "tx": "0xfbb72ed793066ed229a4a7260b92ccb8fe9676086edf6ec3bbe0536c17a40e8f",
+      "ok": true,
+      "returned": "REJECTED",
+      "refusal": "",
+      "at": "2026-11-08T17:55:40Z"
+    },
+    "challenge_pellmark_5": {
+      "method": "challenge",
+      "tx": "0x256c9a6f30c8743983533525eb3c2e4a58972b455b29cc618d53fbd87c45fde0",
+      "ok": true,
+      "returned": 16,
+      "refusal": "",
+      "at": "2026-11-08T17:55:50Z"
+    },
+    "retract_pellmark_5": {
+      "method": "retract",
+      "tx": "0x5c21b90060d02a2c7a66b7cad4229e39c221c6adf404297cbb2f2631e6728554",
+      "ok": true,
+      "returned": 16,
+      "refusal": "",
+      "at": "2026-11-08T17:55:58Z"
+    },
+    "withdraw_seed_challenger_1": {
+      "method": "withdraw",
+      "tx": "0x87258a7142210ab254b92ee3306e5cf69503ef70b81d5204130e3513c721d542",
+      "ok": true,
+      "returned": 9000000000000000000,
+      "refusal": "",
+      "at": "2026-11-08T17:56:09Z",
+      "owed_before": "9000000000000000000",
+      "balance_before": "996449921361499980236",
+      "balance_after_finality": "1005499716417999991531"
+    }
+  },
+  "contract": "0xe6Aa698d3b3c5F6ED7722f15649B0ca85EA7d092",
+  "author": "0x1752DFD0825D3F8b2631DC6e8e11d1D75c9bC769",
+  "challengers": [
+    "0xb41f5156e2C898Bb91D5e0788DE892959Ed6E7b1",
+    "0xD99550c43150874B9dfb05Fb27B1f9d7c77dE3cD"
+  ],
+  "judge": "0xBCBff4E429847058825d171345570c039A70F11B",
+  "finished_at": "2026-11-08T17:56:39Z"
+}

@@ -1,0 +1,38 @@
+  0x1752DFD0 0.00 -> 1000.00 GEN
+  0xBCBff4E4 0.00 -> 1000.00 GEN
+  0xb41f5156 0.00 -> 1000.00 GEN
+  0xD99550c4 0.00 -> 1000.00 GEN
+
+Documents
+  register_doc 0x73b2e0ffffcc4c6aa7f6e172eeac86b48a7aceb9b13665229b6dc1230acd320e
+  register_quill: ok  https://explorer-studio-dev.genlayer.com/tx/0x73b2e0ffffcc4c6aa7f6e172eeac86b48a7aceb9b13665229b6dc1230acd320e
+  register_doc 0x2a5b8c422b7529b136b431d47eaa6925d51d63cfba72bb957a57a48711f5d375
+  register_pellmark: ok  https://explorer-studio-dev.genlayer.com/tx/0x2a5b8c422b7529b136b431d47eaa6925d51d63cfba72bb957a57a48711f5d375
+
+Summaries
+  post_summary 0xc65d5c257bdc03d8eb4b727f43af9b02ba70a0a9a3962cebe429bea9d9f570b3
+  post_kiln: ok  https://explorer-studio-dev.genlayer.com/tx/0xc65d5c257bdc03d8eb4b727f43af9b02ba70a0a9a3962cebe429bea9d9f570b3
+  post_summary 0x28a9a39806950a3c7ee6c844a85e5bba10c4843db80e617c430a7f53a106f36b
+  post_quill: ok  https://explorer-studio-dev.genlayer.com/tx/0x28a9a39806950a3c7ee6c844a85e5bba10c4843db80e617c430a7f53a106f36b
+  post_summary 0x6d06e6f8d8064266ecc6fb6d93e1c8c6bce5b0fac96749f159d388204410aa50
+  post_pellmark: ok  https://explorer-studio-dev.genlayer.com/tx/0x6d06e6f8d8064266ecc6fb6d93e1c8c6bce5b0fac96749f159d388204410aa50
+
+Challenges
+  challenge 0xa704ee0352e307d23c783a34c25c9653add5fa9d56dd11487f956503b2a61f6c
+  challenge_kiln_3: ok  https://explorer-studio-dev.genlayer.com/tx/0xa704ee0352e307d23c783a34c25c9653add5fa9d56dd11487f956503b2a61f6c
+  judge 0xacb408a4b79e27fb0f478ad794983013476028afc3689216e8e0ca31cadae1fc
+  judge_kiln_3: ok  https://explorer-studio-dev.genlayer.com/tx/0xacb408a4b79e27fb0f478ad794983013476028afc3689216e8e0ca31cadae1fc
+  challenge 0x5b4975227680c63bf5c1749d318126223778785005301a0a36a1595748aa0857
+  challenge_kiln_2: ok  https://explorer-studio-dev.genlayer.com/tx/0x5b4975227680c63bf5c1749d318126223778785005301a0a36a1595748aa0857
+  judge 0xfbb72ed793066ed229a4a7260b92ccb8fe9676086edf6ec3bbe0536c17a40e8f
+  judge_kiln_2: ok  https://explorer-studio-dev.genlayer.com/tx/0xfbb72ed793066ed229a4a7260b92ccb8fe9676086edf6ec3bbe0536c17a40e8f
+  challenge 0x256c9a6f30c8743983533525eb3c2e4a58972b455b29cc618d53fbd87c45fde0
+  challenge_pellmark_5: ok  https://explorer-studio-dev.genlayer.com/tx/0x256c9a6f30c8743983533525eb3c2e4a58972b455b29cc618d53fbd87c45fde0
+  retract 0x5c21b90060d02a2c7a66b7cad4229e39c221c6adf404297cbb2f2631e6728554
+  retract_pellmark_5: ok  https://explorer-studio-dev.genlayer.com/tx/0x5c21b90060d02a2c7a66b7cad4229e39c221c6adf404297cbb2f2631e6728554
+
+Withdrawals
+  withdraw 0x87258a7142210ab254b92ee3306e5cf69503ef70b81d5204130e3513c721d542
+  withdraw_seed_challenger_1: ok  https://explorer-studio-dev.genlayer.com/tx/0x87258a7142210ab254b92ee3306e5cf69503ef70b81d5204130e3513c721d542
+  seed_challenger_1: owed 9.0 GEN, wallet 996.4499 -> 1005.4997 GEN after finality
+wrote docs/seed.studio-next.md

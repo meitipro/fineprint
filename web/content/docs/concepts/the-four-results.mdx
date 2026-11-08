@@ -1,0 +1,23 @@
+---
+title: The four results
+description: UPHELD, REJECTED, CORRECTED and STANDS, and what each one does with the money.
+---
+
+The model answers one label. The **verdict is computed in code from that label**, so what a challenge earns is a rule in the contract and never the model's opinion.
+
+| Verdict | When | Money | Record |
+|---|---|---|---|
+| **UPHELD** | The label is MISSTATES or UNSUPPORTED | The stake comes back, plus 20% of the original bond to the challenger | The claim is marked on the summary |
+| **REJECTED** | The label is FAITHFUL | The stake goes to the author | The claim is marked as tested |
+| **CORRECTED** | The author retracts the claim before it is read | The stake comes back, plus 10% of the bond | The claim is struck |
+| **STANDS** | The window ends with no open challenge | The rest of the bond returns to the author | A clean record on the summary |
+
+## The labels
+
+- **FAITHFUL**: the claim says what the clause says, in any wording or language, and adds nothing that matters.
+- **MISSTATES**: the claim conflicts with a clause, overstates it, or drops a condition that changes the meaning (all instead of some, no notice instead of notice, fully instead of partly).
+- **UNSUPPORTED**: the clause does not say what the claim says, and does not contradict it.
+
+## One addition to the spec
+
+A challenge that nobody could get a verdict for within 48 hours is voided by the next `judge` call: no model runs, the stake goes back to the challenger, and the claim stays open to a new challenge. It is a safety valve so that no money waits forever; it decides nothing about the claim. See [Limitations](/docs/more/limitations).

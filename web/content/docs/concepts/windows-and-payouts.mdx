@@ -1,0 +1,33 @@
+---
+title: Windows and payouts
+description: How time is read, how the bonus is capped, and why only withdraw pays.
+---
+
+## Time
+
+Windows use chain time, `gl.message.raw["datetime"]`, which is identical on every validator. A challenge is accepted while the chain time is before the end of the window. A summary closes once the chain time reaches the end of the window and no challenge is waiting to be read.
+
+## The arithmetic
+
+All amounts are whole wei and the contract does integer arithmetic only.
+
+- The stake is `bond // 10`.
+- An upheld claim pays `min(bond * 20 // 100, bond_left)`: a share of the **original** bond, capped at what remains.
+- A retracted claim pays `min(bond * 10 // 100, bond_left)`.
+- A rejected challenge pays its stake to the author.
+
+For a 20 GEN bond: a challenge stakes 2 GEN, an upheld claim pays the challenger the 2 GEN back plus 4 GEN, so 6 GEN, and the bond left is 16 GEN.
+
+## The books always add up
+
+The contract keeps five counters, and a test asserts after nearly every step that
+
+```text
+received == bonds_left + stakes_held + owed + paid
+```
+
+Everything that came in (bonds and stakes) is either still in a bond, held as the stake of an open challenge, credited to an account and not yet withdrawn, or paid out.
+
+## Only withdraw pays
+
+`judge`, `retract` and `close_summary` only move balances inside the contract. `withdraw()` is a top-level transfer of the caller's whole balance to the caller, in its own transaction, with the balance cleared before the value leaves. On consensus v0.6 a transfer can only be funded at the root of the transaction that starts it, which is why a verdict never pays directly.

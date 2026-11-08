@@ -1,0 +1,33 @@
+---
+title: Introduction
+description: A summary of the terms, with money on it, on GenLayer Studio Next.
+---
+
+Fineprint is a summary bond for terms and rules. Anyone can publish a plain-language summary of a terms document whose clauses are fixed on chain. Each claim in the summary cites the clause it comes from and is backed by a bond. Anyone can stake a tenth of the bond to challenge one claim, GenLayer validators read the claim against the clause, and the bond moves by rule to whoever was right.
+
+<Callout title="The question validators answer">
+  Does this one sentence say what this one clause says?
+</Callout>
+
+## Who it is for
+
+- **Authors and community summarisers** who want to show that a summary is careful. A bond that comes back when nobody can fault the summary is a public record of it.
+- **Projects that publish terms**: an airdrop, a grant programme, a token sale. A checked reading of their own terms, and a fast way to learn which sentence people misread.
+- **Anyone about to accept terms.** A summary where every claim links to its clause and has money behind it, with the ones that lost a challenge marked.
+
+## How a claim goes from start to finish
+
+1. A **document** is registered as numbered clauses. Its id is the hash of its text.
+2. An author posts a **summary** of 3 to 8 claims, each citing one clause, with a bond of at least 10 GEN and a window of 24 to 168 hours.
+3. Anyone **challenges** one claim by staking a tenth of the bond, and may name a second clause the claim contradicts.
+4. Validators **read** the claim against the clause and agree on one label: FAITHFUL, MISSTATES or UNSUPPORTED.
+5. The contract turns the label into a verdict and **settles** by rule. `withdraw` is the only call that pays.
+
+## What Fineprint is not
+
+- Not legal advice. It checks that a claim matches its clause, not that the terms are fair or enforceable.
+- Not a judge of the document. It never says a clause is good or bad, only what it says.
+- Not a way to read the web. The clauses are pasted on chain, so the check never depends on a live page.
+- Not an authority on omissions. It judges claims that are made; it cannot say what a summary left out.
+
+Start with the [Quickstart](/docs/quickstart), or read [the judge prompt, word for word](/docs/more/judge-prompt).

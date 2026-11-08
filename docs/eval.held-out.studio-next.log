@@ -1,0 +1,23 @@
+
+H1 Held out: a vague quantifier (expected EITHER)
+  challenge 0x7eef66189de64002e311b4186e0b833399cf7a9c3dbaefe31d99506e68419656
+  challenged claim 3 of summary 2 as challenge 11  https://explorer-studio-dev.genlayer.com/tx/0x7eef66189de64002e311b4186e0b833399cf7a9c3dbaefe31d99506e68419656
+  judge 0x7d2f57c32e1daa613df99484e4988799047c8ad940dca140a8158bd200b4929b
+  MATCH UNSUPPORTED -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x7d2f57c32e1daa613df99484e4988799047c8ad940dca140a8158bd200b4929b
+
+H2 Held out: an approximation of a vesting period (expected EITHER)
+  challenge 0x93a12fae91a1ff56fedc15450f321951fdaaf400e5793c4162b32cd5b4e56944
+  challenged claim 4 of summary 2 as challenge 12  https://explorer-studio-dev.genlayer.com/tx/0x93a12fae91a1ff56fedc15450f321951fdaaf400e5793c4162b32cd5b4e56944
+  judge 0xac95d29e63225aec9fc9d1328c12c2f654537662c5708aff63b2cf8a58e6add0
+  MATCH FAITHFUL -> REJECTED
+  https://explorer-studio-dev.genlayer.com/tx/0xac95d29e63225aec9fc9d1328c12c2f654537662c5708aff63b2cf8a58e6add0
+
+H3 Held out: a claim set against a second clause the challenger named (expected EITHER)
+  challenge 0xc3d2efaec8d7d59a35cb8ed317a69b602104b7fcb7eaf581fb393d4ca0482a2f
+  challenged claim 5 of summary 2 as challenge 13  https://explorer-studio-dev.genlayer.com/tx/0xc3d2efaec8d7d59a35cb8ed317a69b602104b7fcb7eaf581fb393d4ca0482a2f
+  judge 0x1ef1a49c9831be3e5d7d07fa3cb707d58e0cc5fd0a792e3b53a855bc4aec8e21
+  MATCH MISSTATES -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x1ef1a49c9831be3e5d7d07fa3cb707d58e0cc5fd0a792e3b53a855bc4aec8e21
+
+wrote eval/results.md: golden 8/10, held out run 3

@@ -1,0 +1,21 @@
+---
+title: Limitations
+description: What Fineprint does not do, and where it departs from the spec.
+---
+
+## What it does not do
+
+- **It checks claims that are made, not what a summary leaves out.** It cannot say a summary omitted an important clause. Omission challenges are a stretch goal in the spec and are not built.
+- **It is not legal advice, and it never says a clause is fair, legal or complete.**
+- **A document is only as accurate as the person who pasted it.** The text is public and fixed by its hash so anyone can compare it with the original.
+- **A model can be wrong.** In the evaluation the validators called two faithful claims MISSTATES. Those misses are published, and the prompt was not changed to fit them. A label is the validators' agreement, not a fact.
+- **A retracted claim is struck, not replaced.** The spec's table says "struck and replaced", but `retract(summary_id, claim_no)` carries no replacement text. A replacement is a new summary.
+- **Test GEN has no value.** The money mechanics are real; the money on Studio Next is not.
+
+## Where this build differs from the spec
+
+1. **The runtime header.** The spec names `py-genlayer:5jycge4q…`. Studio Next now rejects that hash (`invalid_contract runner malformed`, including for contracts that were deployed with it before), so the contract is pinned to the runner the network itself resolves `latest` to today. See [Addresses](/docs/reference/addresses).
+2. **A 48 hour bound on reading.** A challenge nobody could read is voided with its stake returned, so no money waits forever. This adds a fifth outcome, VOID, that is not one of the four verdicts.
+3. **One view carries more than one kind of key.** The spec has exactly ten methods, so `get_doc` also answers the totals (empty argument), a document by number, and an account's balance, summaries and challenges (an address).
+4. **Claims are sent as a JSON string**, `[{"clause": 1, "text": "…"}]`, like the other Studio Next contracts of this series.
+5. **The optional preview** ("Check before posting") calls a single model through a server route and is off unless the deployment has a model key. It never reaches the chain.

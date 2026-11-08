@@ -1,0 +1,15 @@
+{
+  "title": "Fineprint docs",
+  "pages": [
+    "---Getting started---",
+    "index",
+    "quickstart",
+    "challenge-a-claim",
+    "---Concepts---",
+    "...concepts",
+    "---Reference---",
+    "...reference",
+    "---More---",
+    "...more"
+  ]
+}

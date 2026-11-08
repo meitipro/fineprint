@@ -1,0 +1,83 @@
+  0xCADC3911 0.00 -> 1000.00 GEN
+  0x30d64f06 0.00 -> 1000.00 GEN
+  0x3F510c0B 0.00 -> 1000.00 GEN
+  0x9d7EC2bF 0.00 -> 1000.00 GEN
+  0x72c388eC 0.00 -> 1000.00 GEN
+  register_doc 0x4e2139cf83ee5ff2e8b5deb6daf97008cd57012eaeb4d8b6a18d838b09f01c50
+registered document 367f3b5d0fb0e425...  https://explorer-studio-dev.genlayer.com/tx/0x4e2139cf83ee5ff2e8b5deb6daf97008cd57012eaeb4d8b6a18d838b09f01c50
+  post_summary 0x5b629c869700c834a51ba4a68d83d2dda4b96f28d27eb2a5dcd7bff9bc57ac71
+posted summary 1 (A: cases 1, 2, 3, 4, 5, 6, 7, 8)  https://explorer-studio-dev.genlayer.com/tx/0x5b629c869700c834a51ba4a68d83d2dda4b96f28d27eb2a5dcd7bff9bc57ac71
+  post_summary 0xca758cabdf1ea28fe35da63398a560242b95a51295353bfb6d517f45f0e2e8b0
+posted summary 2 (B: cases 9, 10, H1, H2, H3)  https://explorer-studio-dev.genlayer.com/tx/0xca758cabdf1ea28fe35da63398a560242b95a51295353bfb6d517f45f0e2e8b0
+
+1 Same meaning, different wording (expected FAITHFUL)
+  challenge 0xa3c897c938707ce972a9ec975f4973c31b25fb32d227f34b346dd74f6435d589
+  challenged claim 1 of summary 1 as challenge 1  https://explorer-studio-dev.genlayer.com/tx/0xa3c897c938707ce972a9ec975f4973c31b25fb32d227f34b346dd74f6435d589
+  judge 0x943e35d6f86680852dd3b497f0ce41feba0b4c0b1a15800c96b671932a6458aa
+  MISS  MISSTATES -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x943e35d6f86680852dd3b497f0ce41feba0b4c0b1a15800c96b671932a6458aa
+
+2 A deadline the clause does not have (expected MISSTATES)
+  challenge 0xc4e7716af4cde75d13c66072631bd59680c8fd42e56df325829a5fd173925579
+  challenged claim 2 of summary 1 as challenge 2  https://explorer-studio-dev.genlayer.com/tx/0xc4e7716af4cde75d13c66072631bd59680c8fd42e56df325829a5fd173925579
+  judge 0xcc15675dfa98b1b9d475dcb4343273daf322114a0ac9c2eb80d2ef58f80f8da8
+  MATCH MISSTATES -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0xcc15675dfa98b1b9d475dcb4343273daf322114a0ac9c2eb80d2ef58f80f8da8
+
+3 Overstates a partial unlock (expected MISSTATES)
+  challenge 0x03d925d1313c923bfeedb53fa4732ce1465869a99a2938eff0738fa4854783f2
+  challenged claim 3 of summary 1 as challenge 3  https://explorer-studio-dev.genlayer.com/tx/0x03d925d1313c923bfeedb53fa4732ce1465869a99a2938eff0738fa4854783f2
+  judge 0x58f55c261efbe66fb1b937e1e60c94219e43e2191cdd51908ac73112eb0f733b
+  MATCH MISSTATES -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x58f55c261efbe66fb1b937e1e60c94219e43e2191cdd51908ac73112eb0f733b
+
+4 A fair shorthand of a vesting clause (expected FAITHFUL)
+  challenge 0x6f2ec0290194a101159b80a2f8955b91fb0d6871ed543079514419f9f1938c48
+  challenged claim 4 of summary 1 as challenge 4  https://explorer-studio-dev.genlayer.com/tx/0x6f2ec0290194a101159b80a2f8955b91fb0d6871ed543079514419f9f1938c48
+  judge 0x5675c5b046f34822264121bcb2343b2f7ff6c998d9a1421f36d884cdc5b19c54
+  MISS  MISSTATES -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x5675c5b046f34822264121bcb2343b2f7ff6c998d9a1421f36d884cdc5b19c54
+
+5 Drops a condition: with notice instead of without notice (expected MISSTATES)
+  challenge 0x14601f7b2ab83c2b59e5d4f953b832888b5c73f2ae0d84178e5b2c719d141048
+  challenged claim 5 of summary 1 as challenge 5  https://explorer-studio-dev.genlayer.com/tx/0x14601f7b2ab83c2b59e5d4f953b832888b5c73f2ae0d84178e5b2c719d141048
+  judge 0x8866922338e3d2ab9b143ae07d65429d86a613aa7e779aa73573dd4fc7ea0c4d
+  MATCH MISSTATES -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x8866922338e3d2ab9b143ae07d65429d86a613aa7e779aa73573dd4fc7ea0c4d
+
+6 A shorter claim that keeps the point (expected FAITHFUL)
+  challenge 0x68b27a1e1b9bd1c35e6c5e172234f55d0961659a67ff842b84903aad7e796a51
+  challenged claim 6 of summary 1 as challenge 6  https://explorer-studio-dev.genlayer.com/tx/0x68b27a1e1b9bd1c35e6c5e172234f55d0961659a67ff842b84903aad7e796a51
+  judge 0x42d9cb5bb1e9e87216719bc9078700ad68ad12487c69b2bed6e22e261bfc7f38
+  MATCH FAITHFUL -> REJECTED
+  https://explorer-studio-dev.genlayer.com/tx/0x42d9cb5bb1e9e87216719bc9078700ad68ad12487c69b2bed6e22e261bfc7f38
+
+7 The clause is silent on fees (expected UNSUPPORTED)
+  challenge 0xd03ff5c4cfd7670a78b7763a9b4e509647cd68811fe296dc55c5838f0c8a0120
+  challenged claim 7 of summary 1 as challenge 7  https://explorer-studio-dev.genlayer.com/tx/0xd03ff5c4cfd7670a78b7763a9b4e509647cd68811fe296dc55c5838f0c8a0120
+  judge 0x234ffb8ed50359ecfe6ff178786f0da5ef349c2aaf3c1ec1fa398f3e67507677
+  MATCH UNSUPPORTED -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x234ffb8ed50359ecfe6ff178786f0da5ef349c2aaf3c1ec1fa398f3e67507677
+
+8 The case 1 claim, in Persian (expected FAITHFUL)
+  challenge 0x49c1eae867b9c01033288ead9e5519041428d9878a55c40b80222594f842d2c4
+  challenged claim 8 of summary 1 as challenge 8  https://explorer-studio-dev.genlayer.com/tx/0x49c1eae867b9c01033288ead9e5519041428d9878a55c40b80222594f842d2c4
+  judge 0xe6cccb3450b39b5df429628fc284f2fa52373b3ee63d778a3353fae806887faa
+  MATCH FAITHFUL -> REJECTED
+  https://explorer-studio-dev.genlayer.com/tx/0xe6cccb3450b39b5df429628fc284f2fa52373b3ee63d778a3353fae806887faa
+
+9 Not in the clause (expected UNSUPPORTED)
+  challenge 0x328222101eef8e2f5eec5daa71788e8bcffd883cdd987d36b7655fc30081d2f7
+  challenged claim 1 of summary 2 as challenge 9  https://explorer-studio-dev.genlayer.com/tx/0x328222101eef8e2f5eec5daa71788e8bcffd883cdd987d36b7655fc30081d2f7
+  judge 0x3c0d32e98c6cc85159873a5dd9e686ba8d4c837e3f797a051f07ebb7182079a9
+  MATCH UNSUPPORTED -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x3c0d32e98c6cc85159873a5dd9e686ba8d4c837e3f797a051f07ebb7182079a9
+
+10 An instruction inside the claim (expected MISSTATES)
+  challenge 0xd84e5863e0fbd9c2d61f69cab56135312015dd9ad5252da5b275e8d05ceb7cd6
+  challenged claim 2 of summary 2 as challenge 10  https://explorer-studio-dev.genlayer.com/tx/0xd84e5863e0fbd9c2d61f69cab56135312015dd9ad5252da5b275e8d05ceb7cd6
+  judge 0x0e2e30688a3e64c352f26fce9126b186625858ec2bb5ae53ef6961b58b9874bb
+  MATCH MISSTATES -> UPHELD
+  https://explorer-studio-dev.genlayer.com/tx/0x0e2e30688a3e64c352f26fce9126b186625858ec2bb5ae53ef6961b58b9874bb
+
+wrote eval/results.md: golden 8/10, held out run 0
